@@ -1,0 +1,111 @@
+@media (max-width: 1199.98px){
+    .title{
+        font-size: 24px;
+    }
+    .subtitle{
+        font-size: 19px;
+    }
+    .text{
+        font-size: 15px;
+    }
+}
+@media (max-width: 991.98px){
+    .main .col-xl-5,
+    .event .col-xl-5,
+    .gallery .col-xl-5{
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    .video .col-xl-5{
+        text-align: center;
+        margin-top: 50px;
+    }
+    .speakers .col-xl-3{
+        margin-bottom: 30px;
+    }
+    .speakers-subtitle{
+        margin-top: 40px !important;
+    }
+    .contact form{
+        max-width: 50%;
+        flex-direction: column;
+    }
+    .contact input[type="text"],
+    .contact select{
+        margin-bottom: 30px;
+    }
+    .sponsors img{
+        margin: 20px;
+    }
+    .sponsors .row{
+        justify-content: center !important;
+    }
+}
+@media (max-width: 767.98px){
+    header{
+        padding: 150px 0;
+    }
+    section{
+        padding-top: 50px;
+    }
+    .contact form{
+        max-width: 70%;
+    }
+}
+@media (max-width: 575.98px){
+    .logo{
+        width: 96%;
+    }
+    h1{
+        font-size: 21px;
+    }    
+    header p{
+        font-size: 17px;
+    }
+    header a{
+        margin: 10px;
+    }
+    .main .tab-content img{
+        margin-top: 20px;
+    }
+    .tab-pane.active{
+        justify-content: center;
+    }
+    .tab-content{
+        padding: 0 20px 20px;
+        text-align: center;
+    }
+    .speakers{
+        padding-bottom: 50px;
+    }
+    .event .nav-tabs .nav-item{
+        width: 33.3%;
+    }
+    .event .nav-tabs .nav-link{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .event .btn span{
+        margin: 0;
+        font-size: 13px;
+    }
+    .event .btn{
+        font-size: 13px;
+    }
+    .event .btn img{
+        top: 0;
+    }
+    .video iframe,
+    .carousel img{
+        height: 250px;
+    }
+    .gallery{
+        padding-bottom: 50px;
+    }
+    .contact form{
+        max-width: 90%;
+    }
+    .contact {
+        padding-bottom: 50px;
+    }
+}
